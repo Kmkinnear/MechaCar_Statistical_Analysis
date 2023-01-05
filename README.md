@@ -27,10 +27,13 @@
 
 ## Summary Statistics on Suspension Coils
 
+Total Summary
 <img width="740" alt="image" src="https://user-images.githubusercontent.com/110848660/210892705-75f7f247-03a0-4ca6-9a56-2cd76b4e296e.png">
-
 <img width="246" alt="image" src="https://user-images.githubusercontent.com/110848660/210892639-1beb2805-ad9a-470b-a293-e9768faf23d6.png">
 
+Lot by Lot Summary
+<img width="821" alt="image" src="https://user-images.githubusercontent.com/110848660/210892982-7cf60a58-d4eb-47f7-bd22-64752aab1ee7.png">
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/110848660/210893141-30021356-123a-4d7f-aee1-8ffad4072922.png">
 
   When we look at the variance with all the lots combined, the suspension coils fall under the 100 pounds per square inch threshold. We can see in the figure above that the combined Variance is 62.29. However, we we break out the lots individually, we can see that Lot 1 (0.98) and Lot 2 (7.46) are under the 100 pounds per square inch threshold while Lot 3 is above it. There is a big difference in Variance between the three lots so we should recheck our data to make sure we have good data. Otherwise, there may be an issue going on in the manufacturing process.
   
@@ -63,7 +66,6 @@
   We can see from our Lot 3 t-test data that the true mean of our sample is 1496.14. That number also falls between our 95% confidence interval level. We can also see that we were given a p-value of 0.04 which would be below our common significance level of 0.05. That means that we can reject our null hypothesis that there is a difference between the mean of the PSI for Lot 3 and the population mean of 1500.
   
 ## Study Design: MechaCar vs Competition
-- Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 We would like to do other statistical studies to measure MechaCar against our competition. One study that we thought would be beneficial is took look at how the safety rating of a vehicle can change as the fuel efficiency rating changes. Typically, higher efficiency vehicles are smaller and lighter so we're interested to see if there is any tradeoff with how safe the vehicle becomes. 
 
