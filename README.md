@@ -33,11 +33,13 @@
 ## T-Tests on Suspension Coils
 - briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+We ran T-tests to determine if all manufacturing lots and each individual lot are statistically different from the population mean of 1,500 pounds per square inch. You can see our grouped t-test data and then the t-tests from when we broke them out by lot number.
+
 ### All Lots T-test
 
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/110848660/210859476-2c0156e8-eb58-4f1a-813d-79e17932f3f7.png">
 
-
+We can see from our t-test using the data from all of the lots that the true mean of our sample is 1498.78. We can also see that we were given a p-value of 0.06 which would be above our common significance level of 0.05. That means that we do not have sufficient evidence to reject our null hypothesis in this case. With that we can say that the mean of the three manufacturing lots are statistically similar to the population mean of 1,500 pounds per square inch.
 
 ## Study Design: MechaCar vs Competition
 - Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
