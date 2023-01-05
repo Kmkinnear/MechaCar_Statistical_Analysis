@@ -26,7 +26,11 @@
   We can say that this model does do a good job of predicting mpg effectively. We can see in the figure above that our r-squared value is .71 which would indicate a strong correlation. Even with the adjusted r-squared value of .68, it is still very close to the .7 threshold to indicate a strong correlation.
 
 ## Summary Statistics on Suspension Coils
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+<img width="740" alt="image" src="https://user-images.githubusercontent.com/110848660/210892705-75f7f247-03a0-4ca6-9a56-2cd76b4e296e.png">
+
+<img width="246" alt="image" src="https://user-images.githubusercontent.com/110848660/210892639-1beb2805-ad9a-470b-a293-e9768faf23d6.png">
+
 
   When we look at the variance with all the lots combined, the suspension coils fall under the 100 pounds per square inch threshold. We can see in the figure above that the combined Variance is 62.29. However, we we break out the lots individually, we can see that Lot 1 (0.98) and Lot 2 (7.46) are under the 100 pounds per square inch threshold while Lot 3 is above it. There is a big difference in Variance between the three lots so we should recheck our data to make sure we have good data. Otherwise, there may be an issue going on in the manufacturing process.
   
