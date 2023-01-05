@@ -33,18 +33,26 @@
 ## T-Tests on Suspension Coils
 - briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
-We ran T-tests to determine if all manufacturing lots and each individual lot are statistically different from the population mean of 1,500 pounds per square inch. You can see our grouped t-test data and then the t-tests from when we broke them out by lot number.
+  We ran T-tests to determine if all manufacturing lots and each individual lot are statistically different from the population mean of 1,500 pounds per square inch. You can see our grouped t-test data and then the t-tests from when we broke them out by lot number.
 
 ### All Lots T-test
 
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/110848660/210859476-2c0156e8-eb58-4f1a-813d-79e17932f3f7.png">
 
-We can see from our t-test using the data from all of the lots that the true mean of our sample is 1498.78. We can also see that we were given a p-value of 0.06 which would be above our common significance level of 0.05. That means that we do not have sufficient evidence to reject our null hypothesis in this case. We can also say that the mean of the three manufacturing lots are statistically similar to the population mean of 1500 pounds per square inch.
+  We can see from our t-test using the data from all of the lots that the true mean of our sample is 1498.78. That number also falls between our 95% confidence interval level. We can also see that we were given a p-value of 0.06 which would be above our common significance level of 0.05. That means that we do not have sufficient evidence to reject our null hypothesis in this case. We can also say that the mean of the three manufacturing lots are statistically similar to the population mean of 1500 pounds per square inch.
 
 ### Lot 1 T-test
 
 <img width="425" alt="image" src="https://user-images.githubusercontent.com/110848660/210863372-7d9af3de-87d8-4fab-be55-36770f440291.png">
 
+  We can see in our t-test from Lot 1 that our PSI mean is identical to our population mean of 1500 pounds per square inch. That number also falls between our 95% confidence interval level. We can also see that this t-test gave us a p-value of 1. That is above the 0.05 common significance level so we are again unable to reject the null hypothesis that the means are statistically similar.
+  
+ ### Lot 2 T-test
+ 
+ <img width="418" alt="image" src="https://user-images.githubusercontent.com/110848660/210866009-0eb3dc40-2715-4c33-9e1e-e09c3ffde9eb.png">
+
+  We can see from our t-test using the data from all of the lots that the true mean of our sample is 1500.2. That number also falls between our 95% confidence interval level. We can also see that we were given a p-value of 0.61 which would be above our common significance level of 0.05. That means that we still do not have sufficient evidence to reject our null hypothesis. 
+  
 ## Study Design: MechaCar vs Competition
 - Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
