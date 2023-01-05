@@ -21,6 +21,8 @@
 
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/110848660/210832191-2c014df0-dd08-45c8-b0ac-a57d44df7559.png">
 
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/110848660/210832306-17cd31ad-cb79-44b9-acaf-e584da9621b9.png">
+
   We would say that this model does do a good job of predicting mpg effectively. We can see in the figure above that our r-squared value is .71 which would indicate a strong correlation. Even with the adjusted r-squared value of .68, it is still very close to the .7 threshold to indicate a strong correlation.
 
 ## Summary Statistics on Suspension Coils
