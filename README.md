@@ -7,10 +7,12 @@
 ## Linear Regression to Predict MPG
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-  We can see in our data that "Vehicle Length" and "Ground Clearance" had a non-random variance on the mpg. We know this because the p-values for each of these is less than our significance value of 0.05. Vehicle length had a p-value of 2.60e-12 and Ground clearance had a p-value of 5.21e-08.
+  We can see in our data above that "Vehicle Length" and "Ground Clearance" had a non-random variance on the mpg. We know this because the p-values for each of these is less than our significance value of 0.05. Vehicle length had a p-value of 2.60e-12 and Ground clearance had a p-value of 5.21e-08. The other three metrics (vehicle weight, spoiler angle, and AWD) all showed to have a random amount of variance on mpg. We know this by looking at the p-values of these metrics and seeing that they came in above our significance value of 0.05. Vehicle Weight was showing at 0.08, Spoiler Angle at 0.31, and AWD at 0.19.
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
+  We can say that the slope of this linear model is not zero by looking at the figure above that shows the p-value for our model being at 5.35e-11. That number is much smaller than our significance level of 0.05 so we are able ro reject the null hypothesis.
+  
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 
