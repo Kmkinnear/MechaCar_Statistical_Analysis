@@ -13,9 +13,13 @@
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
+<img width="365" alt="image" src="https://user-images.githubusercontent.com/110848660/210832070-4c5b5e21-21cc-4c53-a9eb-6220adf9dd58.png">
+
   We can say that the slope of this linear model is not zero by looking at the figure above that shows the p-value for our model being at 5.35e-11. That number is much smaller than our significance level of 0.05 so we know the slope is not zero and we're are able ro reject the null hypothesis.
   
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+<img width="371" alt="image" src="https://user-images.githubusercontent.com/110848660/210832191-2c014df0-dd08-45c8-b0ac-a57d44df7559.png">
 
   We would say that this model does do a good job of predicting mpg effectively. We can see in the figure above that our r-squared value is .71 which would indicate a strong correlation. Even with the adjusted r-squared value of .68, it is still very close to the .7 threshold to indicate a strong correlation.
 
