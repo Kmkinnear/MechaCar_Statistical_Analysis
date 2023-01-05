@@ -28,7 +28,7 @@
 ## Summary Statistics on Suspension Coils
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-  When we look at the variance with all the lots combined, the suspension coils fall under the 100 pounds per square inch threshold. We can see in the figure above that the combined Variance is 62.29. However, we we break out the lots individually, we can see that Lot 1 (0.98) and Lot 2 (7.46) are under the 100 pounds per square inch threshold while Lot 3 is above it. There is a big difference in Variance between the three lots so we should recheck our data to make sure we have good data. Otherwise there may be an issue going on in the manufacturing process.
+  When we look at the variance with all the lots combined, the suspension coils fall under the 100 pounds per square inch threshold. We can see in the figure above that the combined Variance is 62.29. However, we we break out the lots individually, we can see that Lot 1 (0.98) and Lot 2 (7.46) are under the 100 pounds per square inch threshold while Lot 3 is above it. There is a big difference in Variance between the three lots so we should recheck our data to make sure we have good data. Otherwise, there may be an issue going on in the manufacturing process.
   
 ## T-Tests on Suspension Coils
 
@@ -44,13 +44,13 @@
 
 <img width="425" alt="image" src="https://user-images.githubusercontent.com/110848660/210863372-7d9af3de-87d8-4fab-be55-36770f440291.png">
 
-  We can see in our t-test data from Lot 1 that our PSI mean is identical to our population mean of 1500 pounds per square inch. That number also falls between our 95% confidence interval level. We can also see that this t-test gave us a p-value of 1. That is above the 0.05 common significance level so we are again unable to reject the null hypothesis that the means are statistically similar.
+  We can see in our t-test data from Lot 1 that our PSI mean is identical to our population mean of 1500 pounds per square inch. That number also falls between our 95% confidence interval level. We can also see that this t-test gave us a p-value of 1. That is above the 0.05 common significance level, so we are again unable to reject the null hypothesis that the means are statistically similar.
   
  ### Lot 2 T-test
  
  <img width="418" alt="image" src="https://user-images.githubusercontent.com/110848660/210866009-0eb3dc40-2715-4c33-9e1e-e09c3ffde9eb.png">
 
-  We can see from our t-tets data from Lot 2 that the true mean of our sample is 1500.2. That number also falls between our 95% confidence interval level. We can also see that we were given a p-value of 0.61 which would be above our common significance level of 0.05. That means that we still do not have sufficient evidence to reject our null hypothesis. 
+  We can see from our t-test data from Lot 2 that the true mean of our sample is 1500.2. That number also falls between our 95% confidence interval level. We can also see that we were given a p-value of 0.61 which would be above our common significance level of 0.05. That means that we still do not have sufficient evidence to reject our null hypothesis. 
  
  ### Lot 3 T-test
  
@@ -61,7 +61,7 @@
 ## Study Design: MechaCar vs Competition
 - Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-We would like to do other statistical studies to measure MechaCar against our competition. One study that we thought would be beneficial is took look at how the safety rating of a vehicle can change as the fuel efficiency rating changes. Typically higher efficiency vehicles are smaller and lighter so we're interested to see if there is any tradeoff with how safe the vehicle becomes. 
+We would like to do other statistical studies to measure MechaCar against our competition. One study that we thought would be beneficial is took look at how the safety rating of a vehicle can change as the fuel efficiency rating changes. Typically, higher efficiency vehicles are smaller and lighter so we're interested to see if there is any tradeoff with how safe the vehicle becomes. 
 
 - In your description, address the following questions:
 
@@ -80,9 +80,9 @@ We would like to do other statistical studies to measure MechaCar against our co
 - Vehicle Class
 
 ### Hypothesis - Null and Alternative
-- Null Hypothesis - There is no difference in safety rating among large and small fuel efficient vehicles between MechaCar and their competitors. 
-- Alternative Hypothesis -There is a difference in safety rating among large and small fuel efficient vehicles between MechaCar and their competitors.
+- Null Hypothesis - There is no difference in safety rating among large and small fuel-efficient vehicles between MechaCar and their competitors. 
+- Alternative Hypothesis -There is a difference in safety rating among large and small fuel-efficient vehicles between MechaCar and their competitors.
  
 ### Statistical Testing
 
-  There are a few different types of data that we would need to complete our statistical test. We would need to do the best we could to secure data for MechaCar and their competitors to make sure we are getting a fair comparison. The first set of data would be mpg numbers for all of our vehicles we're testing and then select a mpg threshold to determine which vehicles we are considering to be high-efficiency. That way we can filter out low efficiency vehicles that may skew our safety numbers. We would also need to see safety ratings for all of the vehicles that we are comparing. The final thing that we would need is the vehicle's weight to determine which vehicles we are determining as "large" and "small". We can also add in a metric for the type of class vehicle so we can break it our by SUV, Car, Truck, etc. Once we have all of that data we should be to complete our analysis to determine if the size of fuel efficiency vehicles has any effect on their safety rating.
+  There are a few different types of data that we would need to complete our statistical test. We would need to do the best we could to secure data for MechaCar and their competitors to make sure we are getting a fair comparison. The first set of data would be mpg numbers for all of our vehicles we're testing and then select a mpg threshold to determine which vehicles we are considering to be high-efficient. That way we can filter out low efficiency vehicles that may skew our safety numbers. We would also need to see safety ratings for all the vehicles that we are comparing. The final thing that we would need is the vehicle's weight to determine which vehicles we are determining as "large" and "small". We can also add in a metric for the type of class vehicle so we can break it out by SUV, Car, Truck, etc. Once we have all of that data, we should be to complete our analysis using t-tests to determine if the size of fuel efficiency vehicles has any effect on their safety rating.
