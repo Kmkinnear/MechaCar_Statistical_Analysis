@@ -6,6 +6,7 @@
 
 ## Linear Regression to Predict MPG
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+We can see in our data that "Vehicle Length" and "Ground Clearance" had a non-random variance on the mpg. We know this because the p-values for each of these is less than our significance value of 0.05. Vehicle length had a p-value of 2.60e-12 and Ground clearance had a p-value of 5.21e-08.
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
