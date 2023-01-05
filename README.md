@@ -34,6 +34,7 @@
 - briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 All Lots T-test
+
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/110848660/210859476-2c0156e8-eb58-4f1a-813d-79e17932f3f7.png">
 
 
