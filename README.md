@@ -63,17 +63,7 @@
 
 We would like to do other statistical studies to measure MechaCar against our competition. One study that we thought would be beneficial is took look at how the safety rating of a vehicle can change as the fuel efficiency rating changes. Typically, higher efficiency vehicles are smaller and lighter so we're interested to see if there is any tradeoff with how safe the vehicle becomes. 
 
-- In your description, address the following questions:
-
-- What metric or metrics are you going to test?
-
-- What is the null hypothesis or alternative hypothesis?
-
-- What statistical test would you use to test the hypothesis? And why?
-
-- What data is needed to run the statistical test?
-
-### Metrics
+### Metrics Needed
 - Safety Rating
 - MPG
 - Vehicle Weight
