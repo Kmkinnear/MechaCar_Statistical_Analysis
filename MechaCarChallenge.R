@@ -17,11 +17,11 @@ suspensionCoil <- read_csv("Suspension_Coil.csv")
 total_summary <- suspensionCoil %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
 
 #Determine mean, median, variance, and SD across manufacturing lots - Mod 16.2.5
-lot_summary <- SuspensionCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
+lot_summary <- suspensionCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
 
 #t-test on all lots
-allLots_psi = SuspensionCoil[['PSI']]
-t.test(allLots[['PSI']], mu=1500)
+allLots_psi = suspensionCoil['PSI']
+t.test(allLots_psi[['PSI']], mu=1500)
 
 #t-test on lot1
 lot1_psi = subset(suspensionCoil, Manufacturing_Lot == 'Lot1')
