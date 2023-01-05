@@ -27,11 +27,13 @@
 
 ## Summary Statistics on Suspension Coils
 
-Total Summary
+### Total Summary
+
 <img width="740" alt="image" src="https://user-images.githubusercontent.com/110848660/210892705-75f7f247-03a0-4ca6-9a56-2cd76b4e296e.png">
 <img width="246" alt="image" src="https://user-images.githubusercontent.com/110848660/210892639-1beb2805-ad9a-470b-a293-e9768faf23d6.png">
 
-Lot by Lot Summary
+### Summary by Lot Number
+
 <img width="821" alt="image" src="https://user-images.githubusercontent.com/110848660/210892982-7cf60a58-d4eb-47f7-bd22-64752aab1ee7.png">
 <img width="328" alt="image" src="https://user-images.githubusercontent.com/110848660/210893141-30021356-123a-4d7f-aee1-8ffad4072922.png">
 
